@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajratn parrallex </title>
+    <style>
+      .parallax {
+        height: 80vh;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-image: url("https://images.unsplash.com/photo-1603575448360-153f093fd0b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+      }
+      body {
+        margin: 0;
+      }
+      #Au{
+          text-align: center;
+          margin-top: 30px;
+          background-color: rgb(122, 196, 177);
+        height: 80vh;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+        background-size: cover;
+         background-image: url("https://images.unsplash.com/photo-1617042375876-a13e36732a04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+          
+      }
+      .section2{
+          text-align: center;
+          margin: 20px;
+          background-color: lightblue;
+
+      }
+      button{
+          margin-right: 5px;
+          font-size:medium;
+          color: rgb(15, 151, 10);
+          padding: 5px;
+          background-color: yellow;
+          border-radius: 50px;
+      }
+      button:hover{
+          background-color: rgb(212, 141, 48);
+      }
+    </style>
+  </head>
+  <body>
+    <!--section 1: landing page -->
+
+    <div class="parallax">
+        
+    </div>
+    <!-- section 2:About Me -->
+    <div class="section2">
+        <h2>INTRO</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <button><a href="SELF.html" style="text-decoration: none; ">ABOUT ME </a></button>
+    </div>
+
+    <!-- section 3:audio  -->
+    <div id="Au">
+        <audio controls autoplay >
+            <source src="myaud.m4a">
+        </audio>
+    </div>
+  </body>
+</html>
